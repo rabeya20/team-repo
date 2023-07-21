@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header related styles */
+/* nav related styles */
+
+.nav-container {
+    height: 20vh;
+    
+    display: flex;
+    justify-content: space-around;
+   padding-bottom: 30px;
+   
+}
+.nav-title {
+    width: 50%;
+    text-align: center;
+    padding: 60px;
+}
+.nav-description {
+    width: 50%;
+    padding-top: 60px;
+   
+}
+.nav-description p {
+    margin-top: 10px;
+    width: 60%;
+}
