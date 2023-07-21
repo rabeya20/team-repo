@@ -7,7 +7,6 @@
 
 .nav-container {
     height: 20vh;
-    
     display: flex;
     justify-content: space-around;
    padding-bottom: 30px;
@@ -15,8 +14,8 @@
 }
 .nav-title {
     width: 50%;
-    text-align: center;
     padding: 60px;
+    padding-left: 200px;
 }
 .nav-description {
     width: 50%;
@@ -26,4 +25,24 @@
 .nav-description p {
     margin-top: 10px;
     width: 60%;
+}
+@media screen and (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+        padding: 0;
+        padding: 80px 0 30px 10px ;
+        width: 100vh;
+    }
+    .nav-title {
+        padding: 0 0 20px 0;
+        width: 100%;
+        font-size: 30px;
+    }
+    .nav-description {
+        padding: 0;
+    }
+    .nav-description p {
+        width: 100%;
+    }
+    
 }
