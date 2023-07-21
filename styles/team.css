@@ -26,6 +26,8 @@
     margin-top: 10px;
     width: 60%;
 }
+/* responsive for mobile */
+
 @media screen and (max-width: 576px) {
     .nav-container {
         flex-direction: column;
@@ -46,3 +48,77 @@
     }
     
 }
+
+/* main related styles */
+.photos {
+    margin-top: 40px;
+}
+img {
+    width: 160px;
+   
+}
+.up, .down {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+
+}
+
+small {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+   
+}
+.photo-2, .photo-5 {
+    margin-top: 50px;
+}
+.level {
+    display: flex;
+    transform: rotate(90deg);
+    margin-left: 120px;
+    margin-top: -190px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+.level-1 {
+    display: flex;
+    transform: rotate(90deg);
+    margin-left: 130px;
+    margin-top: -200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+} 
+.level-2 {
+    display: flex;
+    transform: rotate(90deg);
+    margin-left: 140px;
+    margin-top: -208px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+} 
+.level-3 {
+    display: flex;
+    transform: rotate(90deg);
+    margin-left: 130px;
+    margin-top: -200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+} 
+.level-4 {
+    display: flex;
+    transform: rotate(90deg);
+    margin-left: 138px;
+    margin-top: -210px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+} 
+.level-5 {
+    display: flex;
+    transform: rotate(90deg);
+    margin-left: 140px;
+    margin-top: -208px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+} 
